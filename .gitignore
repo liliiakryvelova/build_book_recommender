@@ -1,25 +1,47 @@
-# Environment variables
-.env
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
 
-# VS Code settings
-.vscode/
-
-# Python cache
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
 .Python
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
 # Virtual environments
-venv/
+.env
+.venv
 env/
+venv/
 ENV/
+env.bak/
+venv.bak/
 
-# OS generated files
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
 .DS_Store
 .DS_Store?
 ._*
@@ -27,3 +49,8 @@ ENV/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Data files (if you want to exclude large datasets)
+# *.csv
+# *.json
+# *.parquet
